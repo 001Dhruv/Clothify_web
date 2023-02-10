@@ -1,0 +1,36 @@
+.logo{
+    height: 50px;
+    width: auto;
+    float: left;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+nav{
+    flex: 1;
+    text-align: center;
+    width: 1300px;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.container{
+    max-width: fit-content;
+    margin: auto;
+    padding: 0px 25px 0px 25px;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+.hello{
+    height: 54px;
+    margin: 0 0 0 0 ;
+}
