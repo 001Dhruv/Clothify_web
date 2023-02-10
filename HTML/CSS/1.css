@@ -75,6 +75,7 @@ a{
     align-items: center;
     text-align: center;
     position: relative;
+    justify-content: space-between;
     height: 250px;
     width: 200px;
     background-color: white;
