@@ -78,7 +78,6 @@ a{
     justify-content: space-between;
     height: 250px;
     width: 200px;
-    background-color: white;
     border-radius: 20%;
     transition: transform .2s;
 }
@@ -89,8 +88,47 @@ a{
     border-radius: 20%;
 }
 .c1:hover{
+    background-color: white;
     height: 260px;
     width: 200px;
     transform: scale(1.05);
     font-size: larger;
+}
+.footer{
+    background-color: #d3d3d3;
+    height: auto;
+    max-width: fit-content;
+    margin: auto;
+    padding: 0px 25px 0px 25px;
+}
+.fc1 , .fc2 , .fc3 , .fc4{
+    float: left;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.fc1{
+    flex-basis: 305;
+}
+.fc1 img{
+    width: 120px; 
+}
+.fc2{
+    text-align: center;
+    margin: auto;
+    padding: 0% 20px 0% 20px;
+}
+.fc2 img{
+    width: 180px;
+    margin-bottom: 0px;
+}
+.fc3 , .fc4{
+    flex-basis: 12%;
+}
+.footer a:hover{
+    text-decoration: underline;
 }
