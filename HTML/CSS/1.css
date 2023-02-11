@@ -35,10 +35,9 @@ nav ul li{
     margin-right: 20px;
 }
 .container{
-    max-width: 100%;
+    max-width: fit-content;
     margin: auto;
-    padding: 0px;
-    margin: 0px;
+    padding: 0px 25px 0px 25px;
 }
 a{
     text-decoration: none;
@@ -101,10 +100,7 @@ a{
     border-radius: 20%;
 }
 .c1:hover{
-    background-color: white;
-    height: 260px;
-    width: 200px;
-    transform: scale(1.05);
+    transform: scale(1.2);
     font-size: larger;
 }
 .footer{
@@ -183,7 +179,7 @@ ul{
 
 }
 .our_partners{
-    font-size: 75px;
+    font-size: 50px;
     text-align: center;
     margin:25px 25px 50px 25px;
     font-weight: 50;
