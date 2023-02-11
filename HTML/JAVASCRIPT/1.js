@@ -1,3 +1,1 @@
-function c() {
-    alert("YES")
-}
+var ProductImg = document.getElementById("ProductImg")

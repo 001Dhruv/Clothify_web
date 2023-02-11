@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jean-1</title>
+    <link rel="stylesheet" href="CSS/1.css">
+</head>
+<body style="background:#EDEDED; margin:0px; padding:0px ">
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul class="hello">
+                    <ul class="logo"><li><a href="Home.html"><img src="RedStore_Img\half logo.png" id="logo"></a></li></ul>                
+                </ul>
+                <ul class="list">
+                        <li><a href="Shirts.html">Shirt</a></li>
+                        <li><a href="T-Shirt.html">T-Shirt</a></li>
+                        <li><a href="Jeans.html">Jeans</a></li>
+                        <li><a href="Shoes.html">Shoes</a></li>
+                        <li><a href="Sweaters.html">Sweaters</a></li>
+                        <li><a href="Night suits.html">Night suits</a></li>
+                </ul>
+                <ul>
+                        <li><a href=""><img src="RedStore_Img\images\search.png" alt="search" height="20px" width="20px"></a></li>
+                        <li><a href=""><img src="RedStore_Img\images\cart.png" alt="cart" height="20px" width="20px"></a></li>
+                        <li><a href="">Account</a></li>
+                        <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="small-cont single-product">
+            <div class="row1">
+                <div class="col-2">
+                    <img src="RedStore_Img\images\Cat\Jeans\1.png" style="width: 390px; height: 480px;" id="ProductImg">
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="RedStore_Img\images\Cat\Jeans\1.png" style="width: 90px; height: 110px; padding: 1px 10px 0px 0px;" id="small-img1">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="RedStore_Img\images\Cat\Jeans\2.png" style="width: 90px; height: 110px; padding: 1px 10px 0px 0px;" id="small-img2">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="RedStore_Img\images\Cat\Jeans\3.png" style="width: 90px; height: 110px; padding: 1px 10px 0px 0px;" id="small-img3">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="RedStore_Img\images\Cat\Jeans\4.png" style="width: 90px; height: 110px; padding: 1px 10px 0px 0px;" id="small-img4">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <p>Home / Jeans</p>
+                    <h1>Phatti Shirt</h1>
+                    <h4>INR 2000.00</h4>
+                    <select>
+                        <option>Select Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>Large</option>
+                        <option>Medium</option>
+                        <option>Small</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add To Cart</a>
+                    <h3>Product Details</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quisquam a necessitatibus inventore fugit sint soluta maiores magnam odit, blanditiis deserunt dignissimos, esse assumenda sunt quasi commodi sapiente. Quam, dolores?</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            var ProductImg = document.getElementById("ProductImg") ;
+            var SmallImg1 = document.getElementById("small-img1") ;
+            var SmallImg2= document.getElementById("small-img2") ;
+            var SmallImg3 = document.getElementById("small-img3") ;
+            var SmallImg4 = document.getElementById("small-img4") ;
+
+            SmallImg1.onclick = function(){
+                ProductImg.src = SmallImg1.src ;
+                // alert('1');
+            }
+            SmallImg2.onclick = function(){
+                ProductImg.src = SmallImg2.src ;
+                // alert('2');
+            }
+            SmallImg3.onclick = function(){
+                ProductImg.src = SmallImg3.src ;
+                // alert('3');
+            }
+            SmallImg4.onclick = function(){
+                ProductImg.src = SmallImg4.src ;
+                // alert('4');
+            }
+        </script>
+        <div class="parteners">
+            <div class="partners_col"><a href="https://www.levi.in/"><img src="RedStore_Img\Levis-Logo.png" height="50px"width="120px" alt=""></a></div>
+            <div class="partners_col"><a href="https://www.nike.com/in/"><img src="RedStore_Img\nike_logo.png" height="50px"width="120px" alt=""></a></div>
+            <div class="partners_col"><a href="https://in.puma.com/in/en"><img src="RedStore_Img\puma_logo.png" height="50px"width="120px" alt=""></a></div>
+            <div class="partners_col"><a href="https://www.adidas.co.in/"><img src="RedStore_Img\Adidas_Logo.svg.png" height="50px"width="120px" alt=""></a></div>
+            <div class="partners_col"><a href="https://uspoloassn.nnnow.com/"><img src="RedStore_Img\us_polo_logo.png" height="50px"width="120px" alt=""></a></div>
+        </div>
+        <div class="footer">
+            <div class="fc1">
+                <h3>Download Our App</h3>
+                <p>Download App For Android and iOS Mobile</p>
+                <a href=""><img src="RedStore_Img\images\play-store.png" alt=""></a>
+                <a href=""><img src="RedStore_Img\images\app-store.png" alt=""></a>
+            </div>
+            <div class="fc2">
+                <a href="Home.html"><img src="RedStore_Img\full_logo.png" alt=""></a>
+            </div>
+            <div class="fc3">
+                <h3>Useful links</h3>
+                <ul>
+                    <a href=""><li>Coupons</li></a>
+                    <a href=""><li>Blog Post</li></a>
+                    <a href=""><li>Return Policy</li></a>
+                    <a href=""><li>Tearms & Conditions</li></a>
+                </ul>
+            </div>
+            <div class="fc4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <a href=""><li>Facebook</li></a>
+                    <a href=""><li>Instagram</li></a>
+                    <a href=""><li>Twitter</li></a>
+                    <a href=""><li>YouTube</li></a>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    <script>
+        var ProductImg = document.getElementById("ProductImg") ;
+        var SmallImg1 = document.getElementById("small-img1") ;
+        var SmallImg2= document.getElementById("small-img2") ;
+        var SmallImg3 = document.getElementById("small-img3") ;
+        var SmallImg4 = document.getElementById("small-img4") ;
+
+        SmallImg1.onclick = function(){
+            ProductImg.src = SmallImg1.src ;
+            // alert('1');
+        }
+        SmallImg2.onclick = function(){
+            ProductImg.src = SmallImg2.src ;
+            // alert('2');
+        }
+        SmallImg3.onclick = function(){
+            ProductImg.src = SmallImg3.src ;
+            // alert('3');
+        }
+        SmallImg4.onclick = function(){
+            ProductImg.src = SmallImg4.src ;
+            // alert('4');
+        }
+    </script>
+</body>
+</html>

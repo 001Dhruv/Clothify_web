@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Shirts</title>
+    <title>Shirt-1</title>
     <link rel="stylesheet" href="CSS/1.css">
 </head>
 <body style="background:#EDEDED; margin:0px; padding:0px ">
@@ -27,13 +27,74 @@
                 </ul>
             </nav>
         </div>
+        <div class="small-cont single-product">
+            <div class="row1">
+                <div class="col-2">
+                    <img src="RedStore_Img\images\Cat\Shirt\1.png" style="width: 390px; height: 480px;" id="ProductImg">
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="RedStore_Img\images\Cat\Shirt\1.png" style="width: 90px; height: 110px; padding: 1px 10px 0px 0px;" id="small-img1">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="RedStore_Img\images\Cat\Shirt\2.png" style="width: 90px; height: 110px; padding: 1px 10px 0px 0px;" id="small-img2">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="RedStore_Img\images\Cat\Shirt\3.png" style="width: 90px; height: 110px; padding: 1px 10px 0px 0px;" id="small-img3">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="RedStore_Img\images\Cat\Shirt\4.png" style="width: 90px; height: 110px; padding: 1px 10px 0px 0px;" id="small-img4">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <p>Home / Shirt</p>
+                    <h1>Pink Plain Shirt</h1>
+                    <h4>INR 2000.00</h4>
+                    <select>
+                        <option>Select Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>Large</option>
+                        <option>Medium</option>
+                        <option>Small</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add To Cart</a>
+                    <h3>Product Details</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quisquam a necessitatibus inventore fugit sint soluta maiores magnam odit, blanditiis deserunt dignissimos, esse assumenda sunt quasi commodi sapiente. Quam, dolores?</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            var ProductImg = document.getElementById("ProductImg") ;
+            var SmallImg1 = document.getElementById("small-img1") ;
+            var SmallImg2= document.getElementById("small-img2") ;
+            var SmallImg3 = document.getElementById("small-img3") ;
+            var SmallImg4 = document.getElementById("small-img4") ;
 
+            SmallImg1.onclick = function(){
+                ProductImg.src = SmallImg1.src ;
+                // alert('1');
+            }
+            SmallImg2.onclick = function(){
+                ProductImg.src = SmallImg2.src ;
+                // alert('2');
+            }
+            SmallImg3.onclick = function(){
+                ProductImg.src = SmallImg3.src ;
+                // alert('3');
+            }
+            SmallImg4.onclick = function(){
+                ProductImg.src = SmallImg4.src ;
+                // alert('4');
+            }
+        </script>
         <div class="parteners">
-            <div class="partners_col"><a href="https://www.levi.in/"><img src="RedStore_Img\Levis-Logo.png" height="50px"width="100px" alt=""></a></div>
-            <div class="partners_col"><a href="https://www.nike.com/in/"><img src="RedStore_Img\nike_logo.png" height="50px"width="100px" alt=""></a></div>
-            <div class="partners_col"><a href="https://in.puma.com/in/en"><img src="RedStore_Img\puma_logo.png" height="50px"width="100px" alt=""></a></div>
-            <div class="partners_col"><a href="https://www.adidas.co.in/"><img src="RedStore_Img\Adidas_Logo.svg.png" height="50px"width="100px" alt=""></a></div>
-            <div class="partners_col"><a href="https://uspoloassn.nnnow.com/"><img src="RedStore_Img\us_polo_logo.png" height="50px"width="100px" alt=""></a></div>
+            <div class="partners_col"><a href="https://www.levi.in/"><img src="RedStore_Img\Levis-Logo.png" height="50px"width="120px" alt=""></a></div>
+            <div class="partners_col"><a href="https://www.nike.com/in/"><img src="RedStore_Img\nike_logo.png" height="50px"width="120px" alt=""></a></div>
+            <div class="partners_col"><a href="https://in.puma.com/in/en"><img src="RedStore_Img\puma_logo.png" height="50px"width="120px" alt=""></a></div>
+            <div class="partners_col"><a href="https://www.adidas.co.in/"><img src="RedStore_Img\Adidas_Logo.svg.png" height="50px"width="120px" alt=""></a></div>
+            <div class="partners_col"><a href="https://uspoloassn.nnnow.com/"><img src="RedStore_Img\us_polo_logo.png" height="50px"width="120px" alt=""></a></div>
         </div>
         <div class="footer">
             <div class="fc1">
@@ -65,6 +126,29 @@
             </div>
         </div> 
     </div>
+    <script>
+        var ProductImg = document.getElementById("ProductImg") ;
+        var SmallImg1 = document.getElementById("small-img1") ;
+        var SmallImg2= document.getElementById("small-img2") ;
+        var SmallImg3 = document.getElementById("small-img3") ;
+        var SmallImg4 = document.getElementById("small-img4") ;
+
+        SmallImg1.onclick = function(){
+            ProductImg.src = SmallImg1.src ;
+            // alert('1');
+        }
+        SmallImg2.onclick = function(){
+            ProductImg.src = SmallImg2.src ;
+            // alert('2');
+        }
+        SmallImg3.onclick = function(){
+            ProductImg.src = SmallImg3.src ;
+            // alert('3');
+        }
+        SmallImg4.onclick = function(){
+            ProductImg.src = SmallImg4.src ;
+            // alert('4');
+        }
+    </script>
 </body>
-<script src="JAVASCRIPT\1.js"></script>
 </html>
